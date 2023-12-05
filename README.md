@@ -1,27 +1,45 @@
-# Proyectofinal
+# Wiblist App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+This application is under development. 
+The objective of this app is to ease the process of a collaborative gif purchase. 
+There are 3 main roles in this app and they differ from each other based on the involvement the user wants.
+Organizers: Can create a gift dashboard
+Collaborators:
+Participants: Users who just want to participate economically. and get to know the status of the purchase.
+Collaborators: Users
+Organizer: 
 
-## Development server
+## Demo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+coming soon
 
-## Code scaffolding
+## How to run this project locally?
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Back-End 
 
-## Build
+- This web application uses MongoDB for its database.
+- To get started using this backend.
+- Run the following commands in the terminal:
+-   Mongod : to start database 
+-   npm start: to connect with Mongo DB Atlas.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+### Front-End 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Run `ng serve -o`  in terminal. Navigate to `http://localhost:4200/`.
 
-## Running end-to-end tests
+## Technologies Used
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Angular
+- Mongo DB Atlas Database
+- Bootstrap
+- CSS
 
-## Further help
+## Functional Features
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Design Features
+
+- Responsive Design for use in different devices 
+- Rounded edges in character cards make a friendlier user interface.
