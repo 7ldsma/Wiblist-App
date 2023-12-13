@@ -1,13 +1,18 @@
 # Wiblist App
 
 This application is under development. 
-The objective of this app is to ease the process of a collaborative gif purchase. 
-There are 3 main roles in this app and they differ from each other based on the involvement the user wants.
-Organizers: Can create a gift dashboard
-Collaborators:
-Participants: Users who just want to participate economically. and get to know the status of the purchase.
-Collaborators: Users
-Organizer: 
+
+The objective of this app is to ease the process of a collaborative gif purchase by visually organizing the gift information (Gift option pictures, Budget, Date, participants).
+
+In this app, users may have one of the following 3 roles, based on the involvement they want to have in the purchase organization.
+
+| User         | Description                                                                                                               | Permissions                                            |
+|--------------|---------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
+| Organizer    | Sets up the dashboard, where all the gift information will be displayed. Sends participation invitations through WhatsApp | Invite participants Delete participants Edit Dashboard |
+| Collaborator | Users who are willing to actively participate in the organization of the gift purchasing process                          | Edit Dashboard                                         |
+| Participant  | Users who will only have economic participation in the purchase of the gift.                                              | View Dashboard                                         |
+
+The idea with this is to avoid creating WhatsApp groups with very extensive conversations in which it is difficult to find important information; and ensure an easier and more enjoyable experience for all users according to their level of participation.
 
 ## Demo
 
@@ -18,11 +23,13 @@ coming soon
 ### Back-End 
 
 - This web application uses MongoDB for its database.
-- To get started using this backend.
-- Run the following commands in the terminal:
--   Mongod : to start database 
--   npm start: to connect with Mongo DB Atlas.
-
+- To get started using this backend run the following commands in the terminal:
+```Terminal
+Mongod
+//to start database 
+npm run dev
+//to connect with Mongo DB Atlas.
+```
 
 ### Front-End 
 
@@ -33,13 +40,10 @@ coming soon
 - Angular
 - Mongo DB Atlas Database
 - Bootstrap
+- Motion One (Animations)
 - CSS
 
-## Functional Features
+## Functional / Design Features
 
-
-
-## Design Features
-
-- Responsive Design for use in different devices 
-- Rounded edges in character cards make a friendlier user interface.
+- Mobile first App
+- Intuitive and user-friendly design for a seamless experience.
